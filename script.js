@@ -1,3 +1,11 @@
+<html>
+<head>
+  <style>
+    header ul.navmenu a:hover,header ul.navmenu a.active {background-color: #000;}
+  </style>
+</head>
+<body>
+<script>
   // Highlight navlink on page scroll
   // Get all sections that have an ID defined
   const sections = document.querySelectorAll("section[id]");
@@ -22,3 +30,7 @@
           }
       });
   }
+</script>
+</body>
+</html>
+
